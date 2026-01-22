@@ -24,4 +24,4 @@ console.log(typeof undefined);  //  undefined
 console.log(typeof null);  // object
 
 
-    
+//  interview ques that null ka type of kya aata hai ans is object
