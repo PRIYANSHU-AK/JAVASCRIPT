@@ -33,3 +33,24 @@ const MyFunction = function(){
 }
 
 console.log(typeof MyFunction);
+
+// **************************************************************
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let day = "friday"
+let anotherDay = day
+anotherDay ="sunday"
+console.log(anotherDay);
+console.log(day);
+
+let userOne = {
+    email : "abc@gmail.com",
+    upi : "apl@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "Priyanshu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
