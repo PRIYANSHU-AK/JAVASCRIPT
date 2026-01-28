@@ -17,9 +17,9 @@ const dc_heros = ["Spider Man" , "Batman" , "Flash"]
 // console.log(realArray);
 
 
-// console.log(Array.isArray("Priyanshu"));
-// console.log(Array.from("Priyanshu"));
-// console.log(Array.from({name : "Priyanshu"}));
+console.log(Array.isArray("Priyanshu"));
+console.log(Array.from("Priyanshu"));
+console.log(Array.from({name : "Priyanshu"}));
 
 let score = 100
 let score2 = 200

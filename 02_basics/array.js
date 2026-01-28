@@ -8,14 +8,15 @@ const arr2 = new Array(8 , 9 , 7 , 5 , 6)
 
 // array methods
 
-// arr.push(9)
-// arr.push(10)
+arr.push(9)
+arr.push(10)
 // arr.pop()
 
 // arr.unshift(9)
-// console.log(arr);
+// // console.log(arr);
 
 // arr.shift()
+// console.log(arr);
 
 // console.log(arr.includes(9));
 // console.log(arr.indexOf(5));
