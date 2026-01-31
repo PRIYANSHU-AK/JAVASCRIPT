@@ -18,7 +18,7 @@ const mysym = Symbol("Key1")
 
 //  console.log(JsUser.email);
 //  console.log(JsUser["email"]);
-//  console.log(JsUser["full name"]);       // [ ] this is used for object rep if the key is in string or its a symbol otherwise we can use .
+//  console.log(JsUser["full name"]);       // [ ] this is used for acess obj value// if the key is in string or its a symbol otherwise we can use dot
 //  console.log(JsUser[mysym]);
  
  JsUser.email = "Priyanshu.mine.com"
