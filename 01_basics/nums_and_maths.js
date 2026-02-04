@@ -12,7 +12,7 @@ const otherNumber = 125.789
 // console.log(otherNumber.toPrecision(3));
 
 const toNumber = 10000000
-// console.log(toNumber.toLocaleString());
+console.log(toNumber.toLocaleString());
 
 // *****************************  MATHS **********************************
 
@@ -24,10 +24,10 @@ const toNumber = 10000000
 // console.log(Math.max(4 ,6 , 8 ,3 ));
 // console.log(Math.min(4 ,6 , 8 ,3 ));
 
-// console.log(Math.random())
-// console.log(Math.random()*10 + 1)
-// console.log((Math.random()*10)  + 1)
-// console.log(Math.floor(Math.random()*10)  + 1)
+console.log(Math.random())
+console.log(Math.random()*10 + 1)
+console.log((Math.random()*10)  + 1)
+console.log(Math.floor(Math.random()*10)  + 1)
 
 
 const min = 10 

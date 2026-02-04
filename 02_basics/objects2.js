@@ -49,7 +49,7 @@ const User = [
 
 // console.log(Object.keys(TinderUser));
 // console.log(Object.values(TinderUser));
-// console.log(Object.entries(TinderUser));
+console.log(Object.entries(TinderUser));
 
 // console.log(TinderUser.hasOwnProperty('isLoggedIn'));
 
@@ -64,7 +64,7 @@ const course = {
 
 const {courseInstructor : instructor} = course
 
-console.log(courseInstructor);
+// console.log(courseInstructor);
 console.log(instructor);
 
 
