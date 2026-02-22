@@ -20,7 +20,7 @@ function addTwoNumber(number1 , number2){
     // let result = number1 + number2
     // // console.log("Priyanshu");
     // return result
-    // console.log("Priyanshu");         // nerver print cozzz   a function cant work after return 
+    // console.log("Priyanshu");         // nerver print this cozzz a function can't work after return 
     return number1 + number2
 }
 // const result = addTwoNumber(3,4)

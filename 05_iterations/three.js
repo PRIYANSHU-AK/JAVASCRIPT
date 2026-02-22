@@ -24,19 +24,19 @@ map.set('USA' , "United State Of America")
 map.set('Fr' , "France")
 map.set('IN' , "India")   //MAP HAS UNIQUE VALUE
 
-// console.log(map);
+console.log(map);
 
 for (const [key , value] of map) {
-    // console.log(key , "-:" , value);
+    console.log(key , "-:" , value);
     
 }
 
-const myobject = {
-    game1 : "NFS",
-    game2 : "spiderman"
-}
+// const myobject = {
+//     game1 : "NFS",
+//     game2 : "spiderman"
+// }
 
 // for (const [key , value ] of myobject) {
 //     console.log(key , "-:" , value);
     
-// }         not iterable at object 
+//  }         // not iterable at object 

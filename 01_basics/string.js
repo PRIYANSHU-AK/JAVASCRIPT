@@ -17,7 +17,7 @@ const gameName = new String('Priyanshupc')
 const newString = gameName.substring(0 , 5);
 console.log(newString);
 
-const anotherstring = gameName.slice(-9 ,5);
+const anotherstring = gameName.slice(-1 ,5);
 console.log(anotherstring);
 
 const newStringone = "    Priyanshu   ";

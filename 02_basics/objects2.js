@@ -17,7 +17,9 @@ const regularUser = {
 
 }
 
-// console.log(regularUser.fullname.userfullname.firstname);
+console.log(regularUser.fullname.userfullname.firstname);
+// console.log(regularUser.firstname); we can't access it by this 
+
 
 const obj1 = {1:"a" , 2:"b"}
 const obj2 = {3:"c" , 4:"d"}
@@ -47,8 +49,8 @@ const User = [
 // User[1].email
 // console.log(TinderUser);
 
-// console.log(Object.keys(TinderUser));
-// console.log(Object.values(TinderUser));
+console.log(Object.keys(TinderUser));
+console.log(Object.values(TinderUser));
 console.log(Object.entries(TinderUser));
 
 // console.log(TinderUser.hasOwnProperty('isLoggedIn'));
