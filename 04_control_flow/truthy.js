@@ -1,10 +1,10 @@
-const userEmail = 'false'
-if(userEmail){
-    console.log("Got user eamil");
-}else{
-    console.log("Dont have user email");
+// const userEmail = 'false'
+// if(userEmail){
+//     console.log("Got user eamil");
+// }else{
+//     console.log("Dont have user email");
     
-}
+// }
 
 // falsy values
 
@@ -15,10 +15,10 @@ if(userEmail){
 
 
 // how to chech arr in if else con 
-// const arr = []
-// if(arr === 0 ){
-// console.log("array is empty");
-// }
+const arr = []
+if(arr === 0 ){
+console.log("array is empty");
+}
 
 // const emptyobj = {}
 // if(Object.keys(emptyobj).length === 0){
@@ -35,12 +35,12 @@ let val1;
 // val1 = undefined ?? 15
 val1 = null ?? 15 ?? 20
 
-console.log(val1);
+// console.log(val1);
 
 
 // Terniary operator
 // condition ? true : false 
 
 const iceTeaPrice = 100
-iceTeaPrice <=80 ? console.log("less than 80") : console.log("more than 80");
+// iceTeaPrice <=80 ? console.log("less than 80") : console.log("more than 80");
 
