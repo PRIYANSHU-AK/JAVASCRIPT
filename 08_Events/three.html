@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141; color: #fff;">
+    <h1>Chai aur Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    const say = function(str){
+        console.log(str , Date.now())
+    }
+    let time = null;
+    document.getElementById('start').addEventListener('click',()=>{
+        if(time === null){
+      time =    setInterval(say,1000 , 'yo')
+        }
+
+})
+// const time =    setInterval(say,1000 , 'yo')
+
+document.getElementById('stop').addEventListener('click',()=>{
+    clearInterval(time)
+    time = null
+})
+// clearInterval(time)
+    </script>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141; color: #fff;">
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+const myName = function(){
+    console.log("Priyanshu")
+}
+
+const change = ()=>{
+    document.querySelector('h1').innerHTML = "Js is best"
+}
+const timer1 = setTimeout(myName,2000)
+// const timer2 = setTimeout(change,2000)
+// clearTimeout(timer1)
+// clearTimeout(timer2)
+    //  setTimeout(function(){
+    //     console.log("Priyanshu")
+    //  },2000)
+
+// const stop = function(){
+//         document.querySelector('#stop').addEventListener('click',()=>{
+//         clearTimeout(timer1)
+//         console.log("Stopped")
+//         })
+//     }
+//     stop()
+     document.querySelector('#stop').addEventListener('click',()=>{
+        clearTimeout(timer1)
+        console.log("Stopped")
+        })
+</script>
+</html>
