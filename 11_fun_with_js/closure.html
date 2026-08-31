@@ -3,72 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Closure aur chai</title>
+    <title>Closure</title>
 </head>
 <body style="background-color: #313131;">
     <button id="orange">Orange</button>
-    <button id="green">Green</button>
+    <button id="blue">Blue</button>
 </body>
+<script>
+// function init() {
+//     let name = "Mozilla"; 
+//     function displayName() {
+//         console.log(name); 
+//     }
+//     displayName();
+// }
+// init();
 
-    <script>
-    // function init() {
-    //     let name = "Mozilla"; 
-    //     function displayName() {
-    //         console.log(name); 
-    //     }
-    //     displayName();
-    // }
-    // init();
+// function outer(){
+//     let username = "Priyanshu"
+//     // console.log("Outer" , secret)
+//     function inner(){
+//         let secret = "my123"
+//         console.log("inner" , username)
+//     }
+//     function innerTwo(){
+//         console.log("innerTwo" , username)
+//         // console.log(secret)
+//     }
+//     inner()
+//     innerTwo()
+// }
+// outer()
+// console.log("Too Outer" , username)
 
-    // function outer(){
-    //     let username = "hitesh"
-    //     console.log("OUTER", secret);
-    //     function inner(){
-    //         let secret = "my123"
-    //         console.log("inner", username);
-    //     }
-    //     function innerTwo(){
-    //         console.log("innerTwo", username);
-    //         console.log(secret);
-    //     }
-    //     inner()
-    //     innerTwo()
-
-    // }
-    // outer()
-    // console.log("TOO OUTER", username);
-
-
-    // function makeFunc() {
-    //     const name = "Mozilla";
-    //     function displayName() {
-    //         console.log(name);
-    //     }
-    //     return displayName;
-    // }
-
-    // const myFunc = makeFunc();
-    // myFunc();
-
-    </script>
-    <script>
-        // document.getElementById("orange").onclick = function(){
-        //     document.body.style.backgroundColor = `orange`
-        // }
-        // document.getElementById("green").onclick = function(){
-        //     document.body.style.backgroundColor = `green`
-        // }
-
-        function clickHandler(color){
-            // document.body.style.backgroundColor = `${color}`
-
-            return function(){
-                document.body.style.backgroundColor = `${color}`
-            }
+ function makeFunc() {
+        const name = "Mozilla";
+        function displayName() {
+            console.log(name);
         }
+        return displayName;
+    }
 
-        document.getElementById('orange').onclick = clickHandler("orange")
-        document.getElementById('green').onclick = clickHandler("green")
+    const myFunc = makeFunc();
+    myFunc();
+//    console.log(makeFunc())   nhi chalega 
+</script>
+<script>
+// document.querySelector('#orange').onclick = function(){
+//     document.body.style.backgroundColor = "orange"
+// }
+// document.querySelector('#blue').onclick = function(){
+//     document.body.style.backgroundColor = "blue"
+// }
 
-    </script>
+// function clickhandler(color){
+//     // document.body.style.backgroundColor = `${color}`
+//     return function(){
+//         document.body.style.backgroundColor = `${color}`
+//     }
+// }
+// document.getElementById('orange').onclick = clickhandler("orange")
+// document.getElementById('blue').onclick = clickhandler("blue")
+
+ document.getElementById('orange').addEventListener('click',function(){
+    document.body.style.backgroundColor = "orange"
+})
+ document.getElementById('blue').addEventListener('click',function(){
+    document.body.style.backgroundColor = "blue"
+})
+</script>
 </html>
